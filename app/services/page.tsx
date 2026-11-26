@@ -1,10 +1,9 @@
 import Link from "next/link";
 import { ClipboardCheck, Search, MapPin, Wrench, Package, RefreshCw, Settings, Headset } from "lucide-react";
 import PageHero from "@/components/PageHero";
-import { services } from "@/lib/site";
-
 export const metadata = { title: "Industrial Services" };
 const icons = [ClipboardCheck,Search,MapPin,Settings,Wrench,Package,RefreshCw,Headset];
+const services = ["System Inspection & Assessment", "Troubleshooting", "Maintenance Support", "System Optimization", "Repairs & Overhauls", "Spare Parts", "Refurbishment", "Technical Support"];
 
 export default function ServicesPage() {
   return <>
